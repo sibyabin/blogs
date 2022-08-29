@@ -9,7 +9,7 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 # Site Settings
 lang: en-US
-title: Siby's Technology Blog
+title: Siby Abin's Technology Blog
 email: sibyabin@gmail.com
 description: "Technology blog by Siby Abin - Senior Data Engineer. Talks about #aws, #spark, #dataengineering, #cloud, #python, #databricks and #airflow"
 baseurl: "/blogs"
