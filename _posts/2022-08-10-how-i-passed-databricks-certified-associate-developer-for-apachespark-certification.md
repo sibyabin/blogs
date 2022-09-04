@@ -11,6 +11,9 @@ tags:
   - apachespark
   - databricks
   - certification
+  - sibyabin
+  - dataengineer
+  - spark
 last_modified_at: 2022-08-09T12:32:16-05:00
 ---
 
@@ -63,12 +66,12 @@ This is required to get familiarized with the documentation to answer some of th
     <figcaption>Test Aid</figcaption>
 </figure> 
 
-#### 5. Writing the certification
+#### 5. Taking the certification
 * You will get an email from KRYTERION a few days before the exam with the pre-requisite (You need to install software and complete a biometric step)
 * Certification exam link will be available 15 minutes before the scheduled time.
 * Status of the exam will be displayed on the screen as soon as you complete the exam. However, it will take a few days to get the official result from databricks via email
 
-#### Important points to remember
+#### 6. Points to remember
 
 Rescheduling certification
 : At the time of writing this blog, You can reschedule the certification with greater than twenty-four (24) hours' notice. It is chargeable otherwise.
