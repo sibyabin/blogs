@@ -21,7 +21,7 @@ I passed the **Databricks Certified Associate Developer for Apache Spark 3.0** c
 
 #### 1. Overview
 
-This blog is to list out all the steps I followed to get certified as a spark developer. This will be most useful for people with prior knowledge of Spark fundamentals and experience in using the Spark Dataframe API. Folks with no prior spark experience can benefit from [Best tips for passing Databricks Certified Associate Developer for Apache Spark 3.0 Certification]("2022-08-10-best-tips-for-passing-databricks-certified-associate-developer-for-apachespark.md")
+This blog is to list out all the steps I followed to get certified as a spark developer. This will be most useful for people with prior knowledge of Spark fundamentals and experience in using the Spark Dataframe API. Folks with no prior spark experience can benefit from [Beginners guide to Apache Spark, a lightning-fast unified analytics engine]({{site.baseurl}}/learning/apache-spark/beginners-guide-to-apachespark-lightning-fast-unified-engine)
 
 #### 2. About the Certification
 
@@ -55,7 +55,7 @@ More details about the certification can be found at [Databricks Certified Assoc
 You are good to attempt the certification if you scored 90% or above in the practice exam. The nature of the questions in the actual certification exam is more similar to that of the practice exam.
 
 If you are scoring less than 90% in the practice exam, you may need to prepare more. 
-Please see [Beginners guide to Apache Spark, a lightning-fast unified analytics engine]("2022-08-07-beginners-guide-to-apachespark-lightning-fast-unified-engine.md")
+Please see [Beginners guide to Apache Spark, a lightning-fast unified analytics engine]({{site.baseurl}}/learning/apache-spark/beginners-guide-to-apachespark-lightning-fast-unified-engine)
 
 >
 Ensure to use the respective test aid of your language of choice while attending the practice exam :  [Python](https://www.webassessor.com/zz/DATABRICKS/Python_v2.html) or [Scala](https://www.webassessor.com/zz/DATABRICKS/Scala_v2.html).
