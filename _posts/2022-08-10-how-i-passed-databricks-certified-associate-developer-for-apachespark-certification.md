@@ -27,7 +27,7 @@ This blog is to list out all the steps I followed to get certified as a spark de
 
 **Databricks Certified Associate Developer for Apache Spark 3.0** contains **60** multiple choice questions which need to be answered in **120** minutes. One needs to score **70%** to pass the certification. 
 
-The certification cost you **$200** normally. Search online to see if there are discount vouchers available as part of any events or databricks marketing campaigns(*I have received vouchers as part of the Data+AI Summit 2022 recently which cost me only $37*) 
+The certification cost you **$200** normally. Search online to see if there are discount vouchers available as part of any events or databricks marketing campaigns(*I have received voucher as part of the Data+AI Summit 2022 recently and by using this, the certification cost me only $37*) 
 
 
 More details about the certification can be found at [Databricks Certified Associate Developer for Apache Spark](https://www.databricks.com/learn/certification/apache-spark-developer-associate).
