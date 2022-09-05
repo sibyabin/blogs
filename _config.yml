@@ -13,7 +13,7 @@ title: Siby Abin's Technology Blog
 email: sibyabin@gmail.com
 description: "Technology blog by Siby Abin - Senior Data Engineer. Talks about #aws, #spark, #dataengineering, #cloud, #python, #databricks and #airflow"
 baseurl: ""
-url: "https://sibyabin.tech"
+url: "https://blogs.sibyabin.tech"
 repository: "sibyabin/sibyabin.github.io"
 copyright: "© 2022-Siby Abin Thomas. All rights reserved."
 author:
