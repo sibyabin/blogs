@@ -25,7 +25,7 @@ github_username: sibyabin
 logo: /assets/images/icon-small.jpg
 google_analytics: 
 disqus:
-  shortname:
+  shortname: sibyabin
 search: true
 search_full_content: true
 search_provider: lunr
