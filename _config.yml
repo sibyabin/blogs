@@ -30,9 +30,9 @@ search: true
 search_full_content: true
 search_provider: lunr
 algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  application_id: '7GP76N1RA3'
+  index_name: blogindex
+  search_only_api_key: f973de4bdb68c99b2c3901695d548921
   powered_by: # true (default), false
 
 # Conversion
@@ -89,6 +89,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - vendor/
 
 # Collections
 collections:
