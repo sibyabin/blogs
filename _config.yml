@@ -11,11 +11,11 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 lang: en-US
 title: Siby Abin's Technology Blog
 email: sibyabin@gmail.com
-description: "Technology blog by Siby Abin - Senior Data Engineer. Talks about #aws, #spark, #dataengineering, #cloud, #python, #databricks and #airflow"
+description: "Technology blog by Siby Abin - Senior Data Engineer. Talks about #dataengineering, #cloud, #aws, #spark, #python, #databricks, #airflow and more"
 baseurl: ""
 url: "https://blogs.sibyabin.tech"
 repository: "sibyabin/sibyabin.github.io"
-copyright: "© 2022-Siby Abin Thomas. All rights reserved."
+copyright: "© 2023-Siby Abin Thomas. All rights reserved."
 author:
   name: Siby Abin Thomas
   twitter: sibyoncloud
