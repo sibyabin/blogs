@@ -21,7 +21,6 @@ last_modified_at: 2023-04-01T12:32:16-05:00
 ---
 This post discusses about some key skills/technolgy that are used widely in the data engineering landscape. Your dream employment as a data engineer will be within reach with these skills.
 
-> Note: The technologies covered in this article are those that have gained more traction; however, this is not the complete list of tools used by the data engineering community.
 
 ![image-center]({{ site.url }}{{ site.baseurl }}/assets/images/dataengineering-skillsets.jpg){: .align-center}
 
@@ -95,9 +94,6 @@ Knowing platform automation technologies will give you an edge as the industry i
 
 **Pulumi:** An infrastructure as code tool that allows developers to create, deploy, and manage cloud infrastructure using familiar programming languages.
 
-Apache Airflow: An open-source platform to programmatically author, schedule, and monitor workflows or data pipelines.
-
-
 
 ## CI/CD
 
@@ -131,7 +127,7 @@ JSON and YAML are two formats that are commonly used in dataengineering projects
 
 **PyCharm/IntelliJ IDEA/DataGrip:** These tools are offered By Jetbrains. 
 
-**PyCharm** is a feature rich IDE that can be used for Python development.** 
+**PyCharm** is a feature rich IDE that can be used for Python development.
 
 **IntelliJ IDEA** is mainly used for Java and Scala development. DataGrip is a multi-engine database environment with a unified environment that help connects to various database technologies. It also includes powerful features such as code completion, code generation, refactoring, and version control integration
 {: .text-justify}
@@ -156,9 +152,14 @@ Apache Kafka is an open-source distributed streaming platform that is designed t
 In some organizations the roles of data engineer and BI professional is bit overlapped. The distinction seems to be fading away with organizations creating roles such as Analytics engineer who does kind of data trnasformation and analytics on data.
 
 Familiarity with one of the BI tool will be an added advantage in search of your data engineering jobs. Below are some widely used tools
-1. Tableau
-2. Power BI
-3. Looker
-4. Apache Superset
+  * Tableau
+  * Power BI
+  * Looker
+  * Apache Superset
+
+
+The technologies covered in this article are those that have gained more traction; however, this is not the complete list of tools used by the data engineering community.
+
+Voila, you've reached to the end of this post. Keep watching this space for more posts on data engineering!
 
 ---
