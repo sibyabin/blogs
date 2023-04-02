@@ -161,24 +161,4 @@ Familiarity with one of the BI tool will be an added advantage in search of your
 3. Looker
 4. Apache Superset
 
-
----
-
-Do you like to see more such content ? Follow @SibyOnCloud
-{: .small}
-.social-media-icons a {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media-icons i {
-  font-size: 24px;
-  color: #333;
-}
-<div class="social-media-icons">
-  <a href="https://www.twitter.com/your-page-url">12<i class="fa fa-twitter"></i></a>
-  <a href="https://www.instagram.com/your-page-url">12<i class="fa fa-instagram"></i></a>
-</div>
-
-
 ---
