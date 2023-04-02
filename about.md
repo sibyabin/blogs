@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: about
-excerpt: "Siby Abin - Senior Data Engineer | Spark Developer | AWS | Airflow | Python | SQL | Databricks |"
+excerpt: "Siby Abin - Senior Data Engineer | Spark Developer | AWS | Airflow | Python | SQL | Databricks | DBT"
 ---
 
 ## Siby Abin - Senior Data Engineer
