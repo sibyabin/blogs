@@ -6,16 +6,36 @@ categories:
   - tech
 tags:
   - dataengineering
-  - apachespark
+  - apache spark
   - databricks
   - python
   - spark
-  - airflow
+  - Airflow
+  - Snowflake
   - terraform
   - github-actions
   - jenkins
   - dbt
-
+  - AWS
+  - Bigdata
+  - Data architecture
+  - Cloud computing
+  - Apache Kafka
+  - Data modeling
+  - ETL (Extract, Transform, Load)
+  - data pipelines
+  - distributed systems
+  - Parquet
+  - Avro
+  - VSCode
+  - Intellij IDEA
+  - DataGrip
+  - PyCharm
+  - SQL (Structured Query Language)
+  - Hadoop
+  - Spark
+  - Python programming
+  - DevOps
 
 last_modified_at: 2023-04-01T12:32:16-05:00
 ---
