@@ -21,7 +21,9 @@ author:
   twitter: sibyoncloud
   picture: /assets/images/sibyabin.png
 twitter_username: sibyoncloud
+youtube_username: sibyoncloud
 github_username: sibyabin
+linkedin_username: sibyabin
 logo: /assets/images/icon-small.jpg
 google_analytics: 
 disqus:
@@ -106,6 +108,9 @@ defaults:
     values:
       layout: post
       read_time: true
+      share: true 
+      related: true
+      author_profile: true
   # _recipes
   - scope:
       path: "_recipes"
@@ -113,3 +118,4 @@ defaults:
     values:
       layout: post
       read_time: true
+  
