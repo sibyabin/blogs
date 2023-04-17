@@ -81,4 +81,11 @@ Familiarize using the test aid aka Spark documentation
 Expect challenges in completing assessment pre-requisites 
 : It is always stressful when you face last-minute technical challenges. I had challenges in completing the biometric step from my device and had to spend many hours with the support team over chat to get that step done. Be ready to face these kinds of setbacks on the day of the exam. However, the support folks are helpful and will be able to guide you even if this happens. 
 
---- 
+
+If you’ve read this far, thank you for spending your time. 
+Until the next post, thanks for reading.
+
+Stay motivated.
+
+
+---

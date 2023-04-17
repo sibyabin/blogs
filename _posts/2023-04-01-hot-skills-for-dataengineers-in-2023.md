@@ -181,5 +181,9 @@ Familiarity with one of the BI tool will be an added advantage in search of your
 The technologies covered in this article are those that have gained more traction; however, this is not the complete list of tools used by the data engineering community.
 
 Voila, you've reached to the end of this post. Keep watching this space for more posts on data engineering!
+Until the next post, thanks for reading.
+
+Stay motivated.
+
 
 ---
