@@ -1,0 +1,10 @@
+{% assign current_post_category = page.category %}
+{% assign related_posts = site.posts | where: "category", current_post_category %}
+{% if related_posts.size > 0 %}
+  <h3>Related Posts</h3>
+  <ul>
+    {% for post in related_posts limit:5 %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
