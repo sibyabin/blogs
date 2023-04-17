@@ -11,6 +11,9 @@ comments: true
       <div class="entry-content">
         {{ content }}
       </div>
+      {% if site.social_media.sharing %}
+        {% include social-media-share.html %}
+      {% endif %}
       {% if site.disqus.shortname %}
         {% include disqus_comments.html %}
       {% endif %}

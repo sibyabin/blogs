@@ -36,6 +36,8 @@ algolia:
   index_name: blogindex
   search_only_api_key: f973de4bdb68c99b2c3901695d548921
   powered_by: # true (default), false
+social_media:
+  sharing: true
 
 # Conversion
 markdown: kramdown
