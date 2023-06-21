@@ -18,6 +18,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://blogs.sibyabin.tech/categories/</loc>
+  <lastmod>2022-01-01T01:08:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://blogs.sibyabin.tech/resume/</loc>
   <lastmod>2022-09-06T19:08:30+00:00</lastmod>
   <priority>0.80</priority>
@@ -47,6 +52,13 @@
   <lastmod>2023-04-15T01:08:30+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<url>
+  <loc>https://blogs.sibyabin.tech/dataengineering/development/raspberry/cost-effective-development-setup-your-hobby-projects/</loc>
+  <lastmod>2023-06-17T01:08:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 
 </urlset>

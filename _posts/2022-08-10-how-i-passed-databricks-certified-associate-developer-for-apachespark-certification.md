@@ -8,12 +8,17 @@ categories:
   - associate-developer-spark
 tags:
   - dataengineering
+  - spark certification
   - apachespark
   - databricks
   - certification
   - sibyabin
   - dataengineer
   - spark
+  - Data + AI Summit 2023
+  - Data + AI Summit 2022
+  - databricks delta
+  - databricks $200 voucher
 last_modified_at: 2022-08-09T12:32:16-05:00
 ---
 
