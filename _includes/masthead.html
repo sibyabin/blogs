@@ -6,14 +6,14 @@
       {% if page.url == '/' %}
         <h2 class="site-title">
           <a href="{{ '/' | relative_url }}">
-            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo" loading="eager" fetchpriority="high">{% endif %}
             <span>{{ site.title | escape }}</span>
           </a>
         </h2>
       {% else %}
         <p class="site-title">
           <a href="{{ '/' | relative_url }}">
-            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo">{% endif %}
+            {% if site.logo %}<img src="{{ site_logo }}" alt="" class="site-logo" loading="eager" fetchpriority="high">{% endif %}
             <span>{{ site.title | escape }}</span>
           </a>
         </p>

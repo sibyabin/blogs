@@ -9,13 +9,13 @@ remote_theme: "mmistakes/jekyll-theme-basically-basic@1.4.5"
 
 # Site Settings
 lang: en-US
-title: Siby Abin's Technology Blog
+title: Data & AI in the Cloud - Learning Recipes
 email: sibyabin@gmail.com
-description: "Technology blog by Siby Abin - Senior Data Engineer. Talks about #dataengineering, #cloud, #aws, #spark, #python, #databricks, #airflow and more"
+description: "Master Cloud Computing, Data Engineering, and Artificial Intelligence through practical recipes and continuous learning"
 baseurl: ""
 url: "https://blogs.sibyabin.tech"
 repository: "sibyabin/sibyabin.github.io"
-copyright: "© 2023-Siby Abin Thomas. All rights reserved."
+copyright: "© 2025-Siby Abin Thomas. All rights reserved."
 author:
   name: Siby Abin Thomas
   twitter: sibyoncloud
@@ -43,7 +43,7 @@ social_media:
 markdown: kramdown
 highlighter: rouge
 lsi: false
-incremental: false
+incremental: true # Enable incremental builds for faster development
 
 
 # Markdown Processing

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Custom theme skin - Matching sibyabin.tech color scheme exactly
+   Supports both light and dark themes
+   ========================================================================== */
+
+/* Core colors - Matching sibyabin.tech */
+$clr-white: #ffffff !default;
+$clr-black: #081b29 !default;
+$clr-blue: #0099ff !default;
+
+/* CSS Variables for dynamic theme switching */
+:root {
+  /* Core colors */
+  --clr-white: #{$clr-white};
+  --clr-black: #{$clr-black};
+  --clr-blue: #{$clr-blue};
+}
+
+/* Light theme (default) */
+:root[data-theme="light"],
+:root:not([data-theme]) {
+  --clr-bg: #{$clr-white};
+  --clr-primary-txt: #{$clr-black};
+  --clr-accent: #{$clr-blue};
+  --clr-border: #{$clr-black};
+  --clr-sidebar-bg: #{$clr-white};
+  --clr-code-bg: #f7fafc;
+}
+
+/* Dark theme */
+:root[data-theme="dark"] {
+  --clr-bg: #{$clr-black};
+  --clr-primary-txt: #{$clr-white};
+  --clr-accent: #{$clr-blue};
+  --clr-border: #{$clr-blue};
+  --clr-sidebar-bg: #{$clr-black};
+  --clr-code-bg: #1a2332;
+}
+
+/* Main colors - Light theme (default SCSS variables) */
+$base-color: #081b29 !default;
+$text-color: #081b29 !default;
+$accent-color: #0099ff !default;
+$background-color: #ffffff !default;
+$code-background-color: #f7fafc !default;
+$border-color: #081b29 !default;
+$overlay-color: rgba(8, 27, 41, 0.9) !default;
+$sidebar-background-color: #ffffff !default;
+
+/* Syntax highlighting (base16) colors - light theme */
+$base00: #ffffff !default;
+$base01: #f5f5f5 !default;
+$base02: #e8e8e8 !default;
+$base03: #d0d0d0 !default;
+$base04: #a0a0a0 !default;
+$base05: #808080 !default;
+$base06: #606060 !default;
+$base07: #081b29 !default;
+$base08: #e53e3e !default;
+$base09: #ff6b35 !default;
+$base0a: #ffb627 !default;
+$base0b: #06a77d !default;
+$base0c: #00a89a !default;
+$base0d: #0099ff !default;
+$base0e: #805ad5 !default;
+$base0f: #d53f8c !default;
+
