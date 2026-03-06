@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: 0 0% 3.9%;
+  --background: 0 0% 100%;
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  --primary: 206 100% 50%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 211 100% 50%;
+  --secondary-foreground: 222 47.4% 11.2%;
+  --accent: 210 40% 96%;
+  --accent-foreground: 222 47.4% 11.2%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: 210 40% 98%;
+    --background: 222 84% 4.9%;
+    --muted: 217 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --border: 217 32.6% 17.5%;
+    --input: 217 32.6% 17.5%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 222 47.4% 11.2%;
+    --secondary: 217.2 91.2% 59.8%;
+    --secondary-foreground: 222 47.4% 11.2%;
+    --accent: 217.2 91.2% 59.8%;
+    --accent-foreground: 222 47.4% 11.2%;
+  }
+}
+
+.dark {
+  --foreground: 210 40% 98%;
+  --background: 222 84% 4.9%;
+  --muted: 217 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+  --border: 217 32.6% 17.5%;
+  --input: 217 32.6% 17.5%;
+  --primary: 210 100% 50%;
+  --primary-foreground: 222 47.4% 11.2%;
+  --secondary: 217.2 91.2% 59.8%;
+  --secondary-foreground: 222 47.4% 11.2%;
+  --accent: 217.2 91.2% 59.8%;
+  --accent-foreground: 222 47.4% 11.2%;
+}
+
+@layer base {
+  * {
+    @apply border-slate-200 dark:border-slate-800;
+  }
+
+  body {
+    @apply bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50;
+    font-feature-settings: "kern" 1;
+  }
+
+  h1 {
+    @apply text-5xl md:text-6xl font-bold text-slate-900 dark:text-white tracking-tight;
+    font-family: 'Merriweather', serif;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl font-bold text-slate-900 dark:text-white tracking-tight;
+    font-family: 'Merriweather', serif;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl font-bold text-slate-900 dark:text-white;
+    font-family: 'Merriweather', serif;
+  }
+
+  h4 {
+    @apply text-xl font-semibold text-slate-900 dark:text-white;
+  }
+
+  h5 {
+    @apply text-lg font-semibold text-slate-900 dark:text-white;
+  }
+
+  h6 {
+    @apply font-semibold text-slate-900 dark:text-white;
+  }
+
+  a {
+    @apply text-accent-600 dark:text-accent-400 font-medium transition-all duration-200 hover:underline;
+  }
+
+  code {
+    @apply rounded bg-slate-100 dark:bg-slate-900 px-1.5 py-0.5 font-mono text-sm font-medium text-accent-700 dark:text-accent-300;
+  }
+
+  pre {
+    @apply overflow-x-auto rounded-lg bg-slate-900 dark:bg-slate-950 p-4 border-l-4 border-accent-600;
+  }
+
+  pre code {
+    @apply bg-transparent px-0 py-0;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-4xl px-4 py-6 sm:px-6 lg:px-8;
+  }
+
+  .post-content {
+    @apply prose prose-slate max-w-none dark:prose-invert;
+  }
+
+  .card {
+    @apply rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 p-6 shadow-sm transition-all duration-300 hover:shadow-md dark:hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .card-featured {
+    @apply relative overflow-hidden rounded-lg border-2 border-accent-600 bg-white dark:bg-slate-900 shadow-lg transition-all duration-300;
+  }
+
+  .button {
+    @apply inline-flex items-center justify-center rounded-lg px-4 py-2 font-medium transition-all duration-200;
+  }
+
+  .button-primary {
+    @apply bg-accent-600 hover:bg-accent-700 text-white shadow-md hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  .button-secondary {
+    @apply border-2 border-accent-600 text-accent-600 dark:text-accent-400 dark:border-accent-400 hover:bg-accent-50 dark:hover:bg-slate-900;
+  }
+
+  /* Badge styles for categories and tags */
+  .category-badge {
+    @apply inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-accent-100 to-accent-50 dark:from-accent-900/30 dark:to-accent-800/20 px-3 py-1 text-sm font-medium text-accent-700 dark:text-accent-300 transition-all duration-200 hover:shadow-md;
+  }
+
+  .tag-badge {
+    @apply inline-block text-sm font-medium text-slate-600 dark:text-slate-400 transition-all duration-200 hover:text-accent-600 dark:hover:text-accent-400;
+  }
+
+  /* Featured badge */
+  .featured-badge {
+    @apply inline-block rounded-full bg-gradient-to-r from-accent-600 to-accent-700 px-3 py-1 text-xs font-bold text-white shadow-md;
+  }
+
+  /* Reading time badge */
+  .reading-time {
+    @apply inline-flex items-center gap-1 rounded-full bg-slate-100 dark:bg-slate-800 px-3 py-1 text-sm text-slate-600 dark:text-slate-400;
+  }
+}
+
+/* Syntax highlighting */
+pre[class*='language-'] {
+  @apply my-4 rounded-lg;
+}
+
+.hljs {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
+
+.hljs-attr,
+.hljs-attribute {
+  color: #dfa857;
+}
+
+.hljs-string {
+  color: #86efac;
+}
+
+.hljs-number {
+  color: #fdba74;
+}
+
+.hljs-literal {
+  color: #67e8f9;
+}
+
+.hljs-keyword {
+  color: #c4b5fd;
+}
+
+.hljs-title {
+  color: #60a5fa;
+}
+
+.hljs-function {
+  color: #f472b6;
+}
+
+.dark .hljs {
+  background: #0f172a !important;
+}
+
+/* Focus styles */
+:focus-visible {
+  @apply outline-none ring-2 ring-accent-600 ring-offset-2 dark:ring-accent-500 dark:ring-offset-slate-950;
+}
+
+/* Selection */
+::selection {
+  @apply bg-accent-200 text-accent-900 dark:bg-accent-900 dark:text-white;
+}
+
+/* Smooth transitions for theme changes */
+* {
+  @apply transition-colors duration-200 ease-in-out;
+}
+
+/* Hero gradient background */
+.hero-gradient {
+  background: linear-gradient(135deg,
+    rgba(248, 250, 252, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(242, 242, 242, 1) 100%
+  );
+}
+
+.dark .hero-gradient {
+  background: linear-gradient(135deg,
+    rgba(15, 23, 42, 1) 0%,
+    rgba(2, 6, 23, 1) 50%,
+    rgba(8, 17, 32, 1) 100%
+  );
+}
+
+/* Subtle pattern overlay */
+.pattern-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 20% 50%, rgba(212, 143, 58, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(212, 143, 58, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Stagger animation for list items */
+@for $i from 1 to 6 {
+  .stagger-item:nth-child($i) {
+    animation: slideUp 0.5s ease-out forwards;
+    animation-delay: calc($i * 0.1s);
+    opacity: 0;
+  }
+}
+
+.stagger-item {
+  animation: slideUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+/* Animated underline for links */
+.underline-animate {
+  position: relative;
+  text-decoration: none;
+}
+
+.underline-animate::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.underline-animate:hover::after {
+  width: 100%;
+}
+
+/* Hover lift effect */
+.hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.dark .hover-lift:hover {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
