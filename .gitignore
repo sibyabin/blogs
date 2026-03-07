@@ -1,2 +1,21 @@
+## OS
+.DS_Store
+docs/.DS_Store
+
+## Node
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Next.js
+.next
+out
+
+## Generated/Build output
+docs/
+dist/
+
+## Legacy/Jekyll leftovers (safe to ignore)
 _site*
 Gemfile.lock
